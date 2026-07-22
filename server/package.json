@@ -1,0 +1,19 @@
+{
+  "name": "uno-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:prod": "node index.js --production",
+    "test": "node test-engine.mjs",
+    "test:e2e": "node test-e2e.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.1"
+  }
+}
